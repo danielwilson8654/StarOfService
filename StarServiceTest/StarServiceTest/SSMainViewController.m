@@ -24,7 +24,6 @@
     NSInteger selectedIndex;
     UIButton *nextpageButton;
     UIActivityIndicatorView *spinner;
-
 }
 
 - (void)viewDidLoad {

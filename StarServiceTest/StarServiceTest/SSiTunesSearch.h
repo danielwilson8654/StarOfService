@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define AlbumUpdated @"UpdatedAlbums"
-#define API_URL @"https://itunes.apple.com/"
+#define API_URL @"https://itunes.apple.com/lookup?amgArtistId=468749,5723&entity=album&limit=5"
 
 @interface SSiTunesSearch : NSObject
 + (SSiTunesSearch *)sharedInstance;

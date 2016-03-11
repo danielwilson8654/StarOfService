@@ -31,7 +31,7 @@
 }
 
 - (void)update{
-    NSString *urlString = @"https://itunes.apple.com/lookup?amgArtistId=468749,5723&entity=album&limit=5";
+    NSString *urlString = API_URL;
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [albumArray removeAllObjects];
